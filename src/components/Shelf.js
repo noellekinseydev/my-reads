@@ -6,7 +6,10 @@ class Shelf extends Component {
     //Create a shelf for each shelf in shelves array from App.js
     return this.props.shelves.map(shelf => (
       <div className="bookshelf" id={shelf.value} key={shelf.id}>
-        <h2 className="bookshelf-title">{shelf.title}</h2>
+        <div className="bookshelf-header">
+          <h2 className="bookshelf-title">{shelf.title}</h2>
+          <h2 className="bookshelf-view">view all ></h2>
+        </div>
         <div className="bookshelf-books">
           <ol className="books-grid main-grid">
             {this.props.books

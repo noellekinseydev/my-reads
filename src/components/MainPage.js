@@ -7,7 +7,7 @@ class MainPage extends Component {
     return (
       <div className="list-books">
         <div className="list-books-title">
-          <h1>Library</h1>
+          <h1>MyReads</h1>
         </div>
 
         <div className="list-books-content">
