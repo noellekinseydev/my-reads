@@ -17,8 +17,9 @@ const Book = props => {
         <div
           className="book-cover"
           style={{
-            width: 110,
-            height: 160,
+            width: 100,
+            height: 150,
+            borderRadius: 5,
             backgroundImage: `url("${thumbnailPresent})`
           }}
         />
