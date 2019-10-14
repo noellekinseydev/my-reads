@@ -34,6 +34,9 @@ h3 {
   padding-bottom: 10px;
   text-transform: uppercase;
   border-bottom: 3px solid orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .list-books-title h1 {
@@ -111,6 +114,21 @@ h3 {
   font-size: 0;
 }
 
+.list-books-title a {
+  background-image: url("./icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 28px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  align-self: end;
+  margin-right: 20px;
+}
+
+.list-books-title a:hover {
+  opacity: 0.5;
+}
 /* search page */
 
 .search-books-bar {

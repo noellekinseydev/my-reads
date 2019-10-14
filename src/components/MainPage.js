@@ -8,6 +8,7 @@ class MainPage extends Component {
       <div className="list-books">
         <div className="list-books-title">
           <h1>MyReads</h1>
+          <Link to="/search"></Link>
         </div>
 
         <div className="list-books-content">
