@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/FEND-2018/my-reads/static/css/main.f909bf5f.chunk.css",
-    "main.js": "/FEND-2018/my-reads/static/js/main.c4079410.chunk.js",
-    "main.js.map": "/FEND-2018/my-reads/static/js/main.c4079410.chunk.js.map",
-    "runtime-main.js": "/FEND-2018/my-reads/static/js/runtime-main.99100092.js",
-    "runtime-main.js.map": "/FEND-2018/my-reads/static/js/runtime-main.99100092.js.map",
-    "static/js/2.fd0a9094.chunk.js": "/FEND-2018/my-reads/static/js/2.fd0a9094.chunk.js",
-    "static/js/2.fd0a9094.chunk.js.map": "/FEND-2018/my-reads/static/js/2.fd0a9094.chunk.js.map",
-    "index.html": "/FEND-2018/my-reads/index.html",
-    "precache-manifest.8f69bb27ccc65bf9dee18aafb422a7b5.js": "/FEND-2018/my-reads/precache-manifest.8f69bb27ccc65bf9dee18aafb422a7b5.js",
-    "service-worker.js": "/FEND-2018/my-reads/service-worker.js",
-    "static/css/main.f909bf5f.chunk.css.map": "/FEND-2018/my-reads/static/css/main.f909bf5f.chunk.css.map",
-    "static/media/App.css": "/FEND-2018/my-reads/static/media/arrow-drop-down.9d4e3f36.svg"
+    "main.css": "/my-reads/static/css/main.e438861f.chunk.css",
+    "main.js": "/my-reads/static/js/main.c833d17a.chunk.js",
+    "main.js.map": "/my-reads/static/js/main.c833d17a.chunk.js.map",
+    "runtime-main.js": "/my-reads/static/js/runtime-main.300a46a8.js",
+    "runtime-main.js.map": "/my-reads/static/js/runtime-main.300a46a8.js.map",
+    "static/js/2.fd0a9094.chunk.js": "/my-reads/static/js/2.fd0a9094.chunk.js",
+    "static/js/2.fd0a9094.chunk.js.map": "/my-reads/static/js/2.fd0a9094.chunk.js.map",
+    "index.html": "/my-reads/index.html",
+    "precache-manifest.f07e1be6662a696260fd9f251f4e6f8f.js": "/my-reads/precache-manifest.f07e1be6662a696260fd9f251f4e6f8f.js",
+    "service-worker.js": "/my-reads/service-worker.js",
+    "static/css/main.e438861f.chunk.css.map": "/my-reads/static/css/main.e438861f.chunk.css.map",
+    "static/media/App.css": "/my-reads/static/media/arrow-drop-down.9d4e3f36.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.99100092.js",
+    "static/js/runtime-main.300a46a8.js",
     "static/js/2.fd0a9094.chunk.js",
-    "static/css/main.f909bf5f.chunk.css",
-    "static/js/main.c4079410.chunk.js"
+    "static/css/main.e438861f.chunk.css",
+    "static/js/main.c833d17a.chunk.js"
   ]
 }
