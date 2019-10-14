@@ -17,8 +17,8 @@ const Book = props => {
         <div
           className="book-cover"
           style={{
-            width: 128,
-            height: 188,
+            width: 110,
+            height: 160,
             backgroundImage: `url("${thumbnailPresent})`
           }}
         />
@@ -32,11 +32,13 @@ const Book = props => {
         />
       </div>
       <div className="book-info">
-        <div className="book-title"><h2>{props.book.title}</h2></div>
-        <div className="book-authors"><h3>{authorText}</h3></div>
-        <hr></hr>
+        <div className="book-title">
+          <h2>{props.book.title}</h2>
+        </div>
+        <div className="book-authors">
+          <h3>{authorText}</h3>
+        </div>
       </div>
-      
     </div>
   );
 };

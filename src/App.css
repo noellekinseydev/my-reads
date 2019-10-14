@@ -3,78 +3,82 @@ body,
 .root {
   height: 100%;
 }
+
 body {
   line-height: 1.5;
 }
+
 body,
 .app {
-  background: #121c3f;
-  color: white;
+  color: #444444;
 }
 
-.pink {
-  color: #e52056;
-  font-size: calc(12px + 2vmin);
-  letter-spacing: 3px;
+h2 {
+  font-size: calc(7px + 2vmin);
+  margin: 0;
+}
+
+h3 {
+  font-weight: 400;
+  margin: 5px 0;
+  font-size: calc(6px + 2vmin);
 }
 
 /* main page */
 
 .list-books-title {
-  padding: 10px 0;
-  background: #253362;
-  text-align: center;
+  margin: 20px;
+  padding-bottom: 10px;
   text-transform: uppercase;
-  font-size: calc(10px + 1vmin);
+  border-bottom: 3px solid orange;
 }
+
 .list-books-title h1 {
   font-weight: 700;
   margin: 0;
   letter-spacing: 2px;
-  font-size: calc(15px + 2vmin);
-  color: white;
-}
-
-.list-books-content {
-  display: grid;
-  grid-template-columns: 20px 1fr 20px;
-}
-
-.list-books-content > * {
-  grid-column: 2/-2;
-}
-
-.list-books-content > .full {
-  grid-column: 1/-1;
+  font-size: calc(18px + 2vmin);
+  color: #219653;
 }
 
 .bookshelf-title {
-  margin: 20px 0 0px 0px;
   font-weight: 600;
-  font-size: 25px;
-  background: rgba(255, 255, 255, 0.808);
-  padding: 20px;
-  color: #080e25;
+  font-size: calc(12px + 2vmin);
+  color: #666666;
+  padding: 0 10px;
 }
 
-.bookshelf-books {
-  display: grid;
-  grid-template-columns: 20px 1fr 20px;
-  text-align: left;
-  margin-bottom: 30px;
+.main-grid {
+  width: 100%;
+  max-height: 60vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  padding: 0 0 0 10px;
+}
+
+.book {
+  padding-right: 8vmin;
+  width: 150px;
+}
+
+.book-info {
+  text-align: center;
+  margin-top: -20px;
+  margin-left: -15px;
 }
 
 .open-search {
   position: fixed;
-  right: 25px;
-  bottom: 25px;
+  right: 15px;
+  bottom: 15px;
 }
 .open-search a {
   display: block;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #e52056;
+  background: orange;
   background-image: url("./icons/add.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -140,70 +144,16 @@ body,
   grid-column: 2/-2;
 }
 
-/* books grid */
-.books-grid {
-  padding: 10px 0;
-  list-style: none;
-  grid-column: 2/-2;
-  
-}
-
-.books-grid {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(180px, auto));
-  justify-content: center;
-  
-}
-
-.bookshelf-books {
-  background: #253362b4;
-}
-
-/* individual book */
-.book-li {
-  width: 180px;
-}
-
-.book-info {
-  padding-right: 25px;
-  line-height: 1.2;
-}
-
-.book-info h2 {
-  margin: 0px 0px 5px 0px;
-  line-height: 1.2;
-  font-size: 17px;
-  margin-top: 10px;
-}
-
-.book-info h3 {
-  margin-top: 10px;
-  font-weight: 400;
-  font-size: 14px;
-  color: rgb(204, 204, 204);
-}
-
-.book-title {
-  margin: 0;
-  padding: 0;
-  font-size: 0.8em;
-}
-
-.book-authors {
-  margin: 0;
-  padding: 0;
-}
 
 
 .book-shelf-changer {
   position: relative;
-  margin-left: 118px;
-  bottom: 20px;
+  margin-left: 90px;
+  bottom: 30px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #e52056;
+  background: #219653;
   background-image: url("./icons/arrow-drop-down.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -218,13 +168,6 @@ body,
   cursor: pointer;
 }
 
-/* book cover */
-
-.book-cover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background: #eee;
-}
-
 /* Personalized */
 .searchResults {
   letter-spacing: 2px;
@@ -237,58 +180,16 @@ body,
   .list-books-content {
     margin-top: 20px;
   }
-  .main-grid {
-    width: 100%;
-    max-height: 60vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    grid-template-columns: 1fr;
-  }
-
-  .bookshelf-title {
-    margin: 0;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.808);
-    color: #121c3f;
-    font-weight: 600;
-  }
+  
 
   .bookshelf {
     margin: 0 10px;
   }
 
-  .bookshelf-books {
-    background: #44538883;
-    box-shadow: 2px 2px 10px 2px inset #463797;
-  }
 
   .book-li {
+    list-style: none;
     width: 98%;
     border-radius: 10px;
-  }
-
-
-  .book-cover {
-    box-shadow: 2px 2px 10px 2px #080e25;
-  }
-
-  .book {
-    display: flex;
-    width: 100%;
-    height: 190px;
-    background: #5e4292;
-    box-shadow: 2px 2px 2px 0px #080e25;
-  }
-
-  .book-info {
-    margin: 10px 5px;
-  }
-
-  .book-info h2 {
-    font-size: 1.5em;
-  }
-
-  .book-info h3 {
-    font-size: 1em;
   }
 }
