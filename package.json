@@ -1,5 +1,5 @@
 {
-  "homepage": "http://noellekinseydev.github.io/FEND-2018/my-reads",
+  "homepage": "http://noellekinseydev.github.io/my-reads",
   "dependencies": {
     "escape-string-regexp": "^2.0.0",
     "prop-types": "^15.7.2",
@@ -8,7 +8,7 @@
     "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "react-scripts": "3.0.0"
   },
   "scripts": {

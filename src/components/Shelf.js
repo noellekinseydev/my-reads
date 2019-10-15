@@ -8,7 +8,6 @@ class Shelf extends Component {
       <div className="bookshelf" id={shelf.value} key={shelf.id}>
         <div className="bookshelf-header">
           <h2 className="bookshelf-title">{shelf.title}</h2>
-          <h2 className="bookshelf-view">view all ></h2>
         </div>
         <div className="bookshelf-books">
           <ol className="books-grid main-grid">
