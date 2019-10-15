@@ -14,7 +14,7 @@ body,
 }
 
 #root {
-  padding: 5vh 0;
+  padding-bottom: 5vh;
 }
 
 h2 {
@@ -35,6 +35,7 @@ h3 {
 
 .list-books-title {
   padding-left: 5vw;
+  padding-top: 5vh;
   z-index: 1;
   border-bottom: 1.5px solid orange;
   display: flex;
@@ -331,9 +332,9 @@ option:focus {
   }
 
   .open-search {
-    right: 17vw;
     position: absolute;
-    top: 7.3vh;
+    right: 18vw;
+    top: 2.5vh;
   }
 
   #root {
