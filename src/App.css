@@ -13,10 +13,6 @@ body,
   color: #444444;
 }
 
-#root {
-  padding-bottom: 5vh;
-}
-
 h2 {
   font-size: calc(7px + 2vmin);
   margin: 0;
